@@ -1,4 +1,3 @@
-
 # '''
 # from enum import nonmember
 # from stringprep import c7_set
@@ -26,7 +25,7 @@
 # #вывод на консоль слова привет
 
 # #таблица ключевых слов, которыми нельзя называть переменную
-#  False await else import pass
+# False await else import pass
 # None break except in raise
 # True class finally is return
 # and continue for lambda try
@@ -57,6 +56,7 @@
 
 
 # #Текстовые типы данных
+
 # str - Строка, состоящие из символов, заключенных в одинарные или двойные кавычки
 # name="Фил"
 
@@ -117,13 +117,4 @@
 # f1=float(input("введите ширину"))
 # z=f*f1
 # print(z)
-
-# #Третья задача
-# # a = int(input("Введите первое число: "))
-# # b = int(input("Введите первое число: "))
-
-# # perimetr = (a + b)*2 
-# # ploshad = a * b
-
-# # print("Периметр прямоугольник:", perimetr, "Площадь прямоугольника", ploshad)
 # '''
