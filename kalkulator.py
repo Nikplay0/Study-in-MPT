@@ -47,15 +47,15 @@ elif dei == 2:
 elif dei == 3:
     pri = int(input("Каталог операторов принадлежности: \n 1 - in() \n 2 - not in() \n Введите номер нужного вам оператора принадлежности: "))
     if pri == 1:
-        a = ''
-        b = ''
+        a = str(a)
+        b = str(b)
         print(a in b)
     if pri == 2:
-        a = ''
-        b = ''
+        a = str(a)
+        b = str(b)
         print(a not in b) 
 elif dei == 4:
-    tosh = int(input("Каталог операторов тождественности: \n 1 - is \n 2 - in not \n Введите номер нужного вам оператора тождественности: "))
+    tosh = int(input("Каталог операторов тождественности: \n 1 - is \n 2 - is not \n Введите номер нужного вам оператора тождественности: "))
     if tosh == 1:
         print(a is b)
     if tosh == 2:
