@@ -63,10 +63,10 @@ elif dei == 4:
 elif dei == 5:
     loghich = int(input("Каталог логических операторов: \n 1 - or(логическое или) \n 2 - and(логическое и) \n 3 - not(логическое отрицание) \n Введите номер нужного вам логического оператора: " )) 
     if loghich == 1:
-        print(a or b)
+        print(a>0 or b>0)
     if loghich == 2:
-        print(a and b)
+        print(a < 0 and b < 0)
     if loghich == 3:
-        print(not(a), not(b))
+        print(not(b>0))
 else:
     print("Ошибка")
