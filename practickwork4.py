@@ -51,5 +51,5 @@
 
 # № 10
 a = [7,8,3,1,2]
-b = [10,4,5,6,3]
-print(sorted(set(a + b)))
+b = [10,4,5,6,3,8]
+print(sorted(set(a) & set(b)))
