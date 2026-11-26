@@ -22,11 +22,11 @@ print(f"Тип функции: {type(get_five)} \nТип результата ф
 
 # № 4
 
-def run_action():
-    say_hi()
 
-ra = run_action()
-ra
+def run_action(action):
+    action()
+
+run_action(say_hi)
 
 # № 5
 
@@ -35,23 +35,28 @@ def step(a):
 
 
 def aplly(action, number):
-    res = number(action)
+    res = action(number)
     print(res)
 
-aplly(6, step)
+aplly(step, 6)
 
 # № 6
 
-def tenp():
+def transform(values, action):
     a = []
-    for i in range(1,4):
-        a.append(i+10)
-    return a 
+    [action(x) for x in values]
+    for i in values:
+        nvalue = action(i)
+        a.append(nvalue)
+    return a
 
-def transform():
-    print(tenp())
+def tenp(n):
+    return n + 10
 
-transform()
+result = transform([1,2,3], tenp)
+
+print(result)
+
 
 # № 7
 
